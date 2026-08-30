@@ -65,6 +65,32 @@ Matching Report
 * 🖥️ Interactive Streamlit interface
 * 🧪 Model and ranking evaluation
 
+## 📸 Application Screenshots
+
+### Resume Upload
+
+The application accepts PDF and DOCX resumes and automatically analyzes the uploaded resume.
+
+![Resume Upload](docs/screenshots/app-home.png)
+
+### Top Job Matches
+
+The system ranks job opportunities based on the hybrid matching score and displays the most relevant roles first.
+
+![Top Job Matches](docs/screenshots/top-job.png)
+
+### Score Breakdown
+
+Each job match includes a detailed breakdown of TF-IDF similarity, skill matching, semantic similarity, experience relevance, and education relevance.
+
+![Score Breakdown](docs/screenshots/matching-report.png)
+
+### Explainable Matching
+
+The application explains why a job matches the candidate, including matched required skills, missing skills, preferred skills, and matching signals.
+
+![Matching Details](docs/screenshots/matching-details.png)
+
 ## 🧠 AI / ML / DL Used
 
 ### Artificial Intelligence
