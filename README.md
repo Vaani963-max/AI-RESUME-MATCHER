@@ -119,6 +119,41 @@ The Transformer converts resume and job descriptions into numerical embeddings.
 
 These embeddings are compared using cosine similarity to calculate semantic relevance.
 
+## 📊 Model Evaluation
+
+The hybrid matching system was evaluated on 50 manually labeled resume-job pairs.
+
+### Evaluation Metrics
+
+| Metric | Score |
+|---|---:|
+| Evaluation Pairs | 50 |
+| Best Threshold | 26% |
+| Accuracy | 58.00% |
+| Precision | 52.50% |
+| Recall | 91.30% |
+| F1 Score | 66.67% |
+
+### Threshold Analysis
+
+Different matching-score thresholds were evaluated from 20% to 50%.
+
+The threshold was selected based on the highest F1 score, which balances precision and recall.
+
+The best-performing threshold according to F1 was **26%**.
+
+At this threshold:
+
+- Accuracy: **58.00%**
+- Precision: **52.50%**
+- Recall: **91.30%**
+- F1 Score: **66.67%**
+
+### Confusion Matrix
+
+```text
+[[ 8 19]
+ [ 2 21]]
 ### Natural Language Processing
 
 NLP is used throughout the project to process:
